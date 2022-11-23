@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*mettendo 100% non mette al centro il riquadro col QR Code*/
+    height: 100vh;
+    background-color: #d6e1f0;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {}
+
+.panel {
+    width: 170px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.qr-code {
+    height: 150px;
+    /*image responsive*/
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.advice-one {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.advice-two {
+    font-size: 10px;
+    margin-top: 10px;
+}
